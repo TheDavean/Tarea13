@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./CSS.css">
+    <title>Tarea13</title>
+  </head>
+  <body>
+    <h1>Alumnos</h1>
+    <div id="main">
+      <table border="1px" id="table">
+        <tr>
+          <th>Id</th>
+          <th>Matricula</th>
+          <th>Nombre</th>
+          <th>Apellido</th>
+          <th>Condicion</th>
+        </tr>
+        <tbody id="Contenido"></tbody>
+      </table>
+      <button id="ajax">Cargar Alumnos</button>
+      <div id="campos">
+        <input type="text" id="matricula" value="" placeholder="Matricula">
+        <input type="text" id="nombre" value="" placeholder="Nombre">
+        <input type="text" id="apellido" value="" placeholder="Apellido">
+        <input type="text" id="status" value="" placeholder="Condicion">
+      </div>
+      <button id="agregar">Agregar Alumno</button>
+    </div>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script src="JavaScript.js"></script>
+  </body>
+</html>
